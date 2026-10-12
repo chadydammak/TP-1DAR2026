@@ -18,7 +18,7 @@ public class serveur {
         DataInputStream dis = new DataInputStream(is);
         int nb = dis.readInt();
         System.out.println("le serveur a recu le nombre :"+nb);
-        int x =nb+5;
+        int x =nb*5;
         System.out.println("calcul du serveur :"+x+"+5="+5);
         OutputStream os = Socket.getOutputStream();
         DataOutputStream dos = new DataOutputStream(os);
@@ -31,5 +31,5 @@ public class serveur {
 
     }
 
-    }
+
 }
