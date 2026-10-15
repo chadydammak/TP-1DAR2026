@@ -11,7 +11,7 @@ public class client {
 
         // Adresse IP du serveur
         // localhost fonctionne uniquement pour un test sur la même machine
-        String adresseServeur = "localhost";
+        String adresseServeur = "192.168.1.20";
         int port = 1234;
 
         Scanner scanner = new Scanner(System.in);
